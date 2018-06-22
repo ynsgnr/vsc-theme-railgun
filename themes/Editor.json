@@ -2,11 +2,17 @@
 	"$schema": "vscode://schemas/color-theme",
 	"name": "Railgun Editor Colors",
 	"colors": {
+		"workbench.background": "#0000",
+
 		"foreground": "#d8d2c7",
-		"editor.background": "#1d1d1d",
+		"editor.background": "#1d1d1d88",
 		"editor.foreground": "#bcac8f",
 		"editor.inactiveSelectionBackground": "#3A3D41",
-		"editor.indentGuides": "#404040",
+
+		"editorGroupHeader.noTabsBackground": "#1d1d1daa",
+		"editorGroupHeader.tabsBackground": "#1d1d1daa",
+
+		"tab.activeBackground": "#1d1d1d88",
 
 		"editor.selectionBackground": "#ea603e44",
 		"editor.selectionHighlightBackground": "#add6ff19",
@@ -16,14 +22,22 @@
 
 		"editor.lineHighlightBorder": "#FFFFFF00",
 		"editor.lineHighlightBackground": "#FFFFFF08",
-		"statusBar.background": "#222222",
-		"statusBar.foreground": "#999999",
-		"statusBar.noFolderBackground": "#222222",
-		"statusBar.debuggingBackground": "#222222",
+		"statusBar.background": "#222222aa",
+		"statusBar.foreground": "#999999aa",
+		"statusBar.noFolderBackground": "#222222aa",
+		"statusBar.debuggingBackground": "#222222aa",
 		"editorOverviewRuler.border": "#00000000",
 		"badge.background": "#ea603e",
-		"list.inactiveSelectionBackground": "#393939",
-		"list.activeSelectionBackground": "#393939",
-		"list.focusBackground": "#393939"
+		"list.inactiveSelectionBackground": "#20202077",
+		"list.activeSelectionBackground": "#20202077",
+		"list.focusBackground": "#20202077",
+		"list.hoverBackground": "#39393966",
+
+		"sideBar.background": "#1d1d1ddd",
+
+		"titleBar.activeBackground": "#1d1d1daa",
+		"titleBar.inactiveBackground": "#1d1d1daa",
+
+		"activityBar.background": "#1d1d1ddd"
 	}
 }
